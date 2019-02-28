@@ -8,7 +8,7 @@
   "info": {
     "description": "REST API webservice for lazar. \n\n*lazar* (lazy structure–activity relationships) is a modular framework for\npredictive toxicology.",
     "version": "1.4.0",
-    "title": "Lazar REST Service",
+    "title": "lazar_cleaned_with_context_and_entries",
     "contact": {
       "name": "in silico toxicology gmbh",
       "email": "info@in-silico.ch",
