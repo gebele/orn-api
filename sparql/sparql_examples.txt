@@ -1,0 +1,14 @@
+# lazar_cleaned_with_context
+# use case: service that provides sdfile
+
+SELECT ?title ?service_url ?path ?method WHERE {
+?service orn:servers ?server.
+?server orn:url ?service_url.
+?i orn:info ?info.
+?info orn:title ?title.
+?paths orn:paths ?path.
+?path ?method ?m.
+?m orn:OperationResponses ?op_re.
+?op_re orn:Content ?content.
+?content <http://openrisknet.org/schema#chemical/x-mdl-sdfile> ?type.
+}
