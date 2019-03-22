@@ -120,6 +120,12 @@
       "500": {
         "description": "Server Error"
       }
+    },
+    "x-orn-@context": {
+      "x-orn-@id": "@id",
+      "x-orn-@type": "@type",
+      "@vocab": "http://openrisknet.org/schema#",
+      "x-orn": "http://openrisknet.org/schema#"
     }
   }
 }
