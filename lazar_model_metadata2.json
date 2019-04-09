@@ -21,12 +21,12 @@
       ],
       "source": "http://cheminformatics.org/datasets/",
       "species": "Human"
-    },
-    "x-orn-@context": {
-      "@vocab": "http://openrisknet.org/schema#",
-      "x-orn": "http://openrisknet.org/schema#",
-      "x-orn-@id": "@id",
-      "x-orn-@type": "@type"
     }
+  },
+  "x-orn-@context": {
+    "@vocab": "http://openrisknet.org/schema#",
+    "x-orn": "http://openrisknet.org/schema#",
+    "x-orn-@id": "@id",
+    "x-orn-@type": "@type"
   }
 }
