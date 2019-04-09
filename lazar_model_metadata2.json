@@ -1,0 +1,32 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "lazar model metadata",
+    "description": "test",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://lazar.prod.openrisknet.org"
+    }
+  ],
+  "paths": {
+    "/model/5ae2dd695f1c2d0132326ff7": {
+      "get": {
+        "x-orn-@id": "https://lazar.prod.openrisknet.org/model/5ae2dd695f1c2d0132326ff7",
+        "x-orn-@type": "x-orn:Model"
+      },
+      "returns": [
+        "x-orn:TrainedModel"
+      ],
+      "source": "http://cheminformatics.org/datasets/",
+      "species": "Human"
+    },
+    "x-orn-@context": {
+      "@vocab": "http://openrisknet.org/schema#",
+      "x-orn": "http://openrisknet.org/schema#",
+      "x-orn-@id": "@id",
+      "x-orn-@type": "@type"
+    }
+  }
+}
