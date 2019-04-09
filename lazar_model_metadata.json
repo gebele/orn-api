@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "http://openrisknet.org/schema#",
+    "x-orn": "http://openrisknet.org/schema#",
+    "x-orn-@id": "@id",
+    "x-orn-@type": "@type",
+    "smiles": "http://semanticscience.org/resource/CHEMINF_000018",
+    "inchi": "http://semanticscience.org/resource/CHEMINF_000113",
+    "inchikey": "http://semanticscience.org/resource/CHEMINF_000059",
+    "cas": "http://semanticscience.org/resource/CHEMINF_000446"
+  },
+  "/model/5ae2dd695f1c2d0132326ff7": {
+    "get": {
+      "x-orn-@id": "https://lazar.prod.openrisknet.org/model/5ae2dd695f1c2d0132326ff7",
+      "x-orn-@type": "x-orn:Model"
+    },
+    "returns": [
+      "x-orn:TrainedModel"
+    ],
+    "source": "http://cheminformatics.org/datasets/",
+    "species": "Human"
+  }
+}
